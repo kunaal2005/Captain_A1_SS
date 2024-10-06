@@ -133,7 +133,7 @@
 /* Media Queries for Phones */
 @media (max-width: 768px) {
   .our-story {
-    flex-direction: column;  /* Stack items vertically */
+    flex-direction: column; /* Stack items vertically */
     padding: 20px;
     align-items: center; /* Center-align the content */
   }
@@ -151,7 +151,7 @@
   .white-line {
     margin: 6rem 5rem;
     width: 2rem;
-    height: 0px; 
+    height: 0px;
   }
 
   .our-story-left .read-more {
@@ -179,7 +179,7 @@
   }
 
   /* Remove unnecessary margins and align text centrally */
-  .our-story-left, 
+  .our-story-left,
   .our-story-right {
     text-align: center;
   }
@@ -212,12 +212,12 @@
   margin-left: -29rem;
 }
 @media (max-width: 1024px) {
-  .about-me-left{ 
+  .about-me-left {
     justify-content: center;
   }
 }
 @media (max-width: 768px) {
-  .about-me-left{ 
+  .about-me-left {
     justify-content: center;
   }
 }
@@ -672,8 +672,6 @@
   }
 }
 
-
-
 .our-services-info {
   padding: 40px 20px;
   background-color: #f5f5f5;
@@ -682,14 +680,14 @@
 
 .our-services-info h2 {
   font-size: 2.5rem;
-  color: #b40e15; /* Adjust color based on the design */
+  color: black; /* Adjust color based on the design */
   margin-bottom: 40px;
 }
 
 .service-card {
   display: flex;
   align-items: center;
-  background-color: #b40e15;
+  background-color: #1e3254;
   color: white;
   margin-bottom: 20px;
   padding: 20px;
