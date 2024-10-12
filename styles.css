@@ -98,7 +98,7 @@ header .social-icons a {
 }
 
 .hero {
-  background-image: url("./images/HeroBanner2.jpeg"); /* Add the path to your image */
+  background-image: url("./images/heroimg.jpg"); /* Add the path to your image */
   background-size: cover;
   background-position: center;
   height: 500px;
