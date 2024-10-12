@@ -12,6 +12,7 @@ html {
 }
 
 header {
+  /* height: 8.5rem; */
   background-color: #1e3254; /* Dark blue background */
   /* padding: 15px; */
   display: flex;
@@ -29,14 +30,11 @@ header .container {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+
   /* position: absolute; */
   /* top: 0; */
 }
-/* navbar .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-} */
+
 header .logo {
   display: flex;
   align-items: center;
@@ -58,11 +56,11 @@ header .logo {
   object-position: center center; */
 }
 .logo img {
-  max-width: 100px; /* Fixing the width of the logo */
+  max-width: 70px; /* Fixing the width of the logo */
   height: auto; /* Maintains the aspect ratio */
 }
 header .logo h1 {
-  font-size: 24px;
+  font-size: 22px;
   margin: 0;
 }
 @media (max-width: 768px) {
@@ -98,10 +96,11 @@ header .social-icons a {
 }
 
 .hero {
+  margin-top: 3rem;
   background-image: url("./images/heroimg.jpg"); /* Add the path to your image */
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 45rem;
   position: relative;
 }
 
